@@ -1,0 +1,13 @@
+/* app css stylesheet */
+
+body {
+  padding: 60px;
+}
+
+table caption{
+  text-align: center;
+}
+
+.thumbnail {
+	margin-bottom:7px;
+}

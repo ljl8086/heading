@@ -1,0 +1,23 @@
+{
+  "name": "herding-cloud",
+  "description": "畜牧无害化云平台",
+  "version": "1.0.1",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.7",
+    "angular-route": "~1.5.7",
+    "angular-loader": "~1.5.7",
+    "angular-mocks": "~1.5.7",
+    "html5-boilerplate": "^5.3.0",
+    "bootstrap": "~3.3.6",
+    "ngInfiniteScroll":"~1.0.0",
+    "jquery":"~3.1.0",
+    "admin-lte": "^2.3.5",
+    "font-awesome":"~4.5.0",
+    "ionicons":"~2.0.1",
+    "icheck":"~1.0.2",
+    "jvectormap":"~1.2.2"
+  }
+}

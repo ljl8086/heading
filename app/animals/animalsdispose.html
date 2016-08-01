@@ -1,0 +1,72 @@
+ <div class="box">
+            <div class="box-header">
+              <h3 class="box-title"></h3>
+              <form class="form-inline">
+                <div class="form-group">
+                  <label>收集点</label>
+                  <select class="form-control">
+                    <option>水江</option>
+                    <option>天台</option>
+                    <option>湖田</option>
+                    <option>竹亭</option>
+                    <option>洪塘</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <th>养殖户</th>
+                  <th>牲畜信息</th>
+                  <th>收集点</th>
+                  <th>接受时间</th>
+                  <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>天桥养殖场</td>
+                  <td>2016070133600100001，肉猪，1.5米（07月01日收集）</td>
+                  <td>下埔收集点</td>
+                  <td>2016年07月10日 11点20分</td>
+                  <td>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></button>
+                      <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></button>
+                    </div>
+                  </td>
+                </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#example1').DataTable({
+       "oLanguage" : {
+                "sLengthMenu": "每页显示 _MENU_ 条记录",
+                "sZeroRecords": "抱歉， 没有找到",
+                "sInfo": "从 _START_ 到 _END_ /共 _TOTAL_ 条数据",
+                "sInfoEmpty": "没有数据",
+                "sInfoFiltered": "(从 _MAX_ 条数据中检索)",
+                "sZeroRecords": "没有检索到数据",
+                 "sSearch": "名称:",
+                "oPaginate": {
+                "sFirst": "首页",
+                "sPrevious": "前一页",
+                "sNext": "后一页",
+                "sLast": "尾页"
+                }
+              },
+              "dom":"rt<'pull-right'p>"
+    });
+});
+</script>
